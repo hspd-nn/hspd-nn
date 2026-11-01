@@ -1,0 +1,13 @@
+{
+ "campaign": "noise",
+ "task_id": 1,
+ "n_tasks": 8,
+ "n_units": 30,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "noise",
+  "--n-tasks",
+  "8"
+ ]
+}

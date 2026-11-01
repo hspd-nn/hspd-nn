@@ -1,0 +1,13 @@
+{
+ "campaign": "spm_check",
+ "task_id": 0,
+ "n_tasks": 4,
+ "n_units": 90,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "spm_check",
+  "--n-tasks",
+  "4"
+ ]
+}

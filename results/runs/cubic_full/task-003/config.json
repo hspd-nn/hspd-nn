@@ -1,0 +1,13 @@
+{
+ "campaign": "cubic_full",
+ "task_id": 3,
+ "n_tasks": 4,
+ "n_units": 45,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "cubic_full",
+  "--n-tasks",
+  "4"
+ ]
+}

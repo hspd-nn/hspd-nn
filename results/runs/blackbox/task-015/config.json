@@ -1,0 +1,13 @@
+{
+ "campaign": "blackbox",
+ "task_id": 15,
+ "n_tasks": 16,
+ "n_units": 90,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "blackbox",
+  "--n-tasks",
+  "16"
+ ]
+}

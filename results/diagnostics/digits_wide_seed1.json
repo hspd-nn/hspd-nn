@@ -1,0 +1,70 @@
+{
+ "seed": 1,
+ "r": 512,
+ "stages": [
+  {
+   "stage": "teacher",
+   "sec": 199.17173104803078,
+   "sigma_ratio_M": 2.4337956900726616e-06,
+   "gap_ratio": 5.3289309365230186e-11,
+   "sin_theta": 6.224916426477146e-12,
+   "kappa_q": [
+    0.02622170459107197,
+    0.03732435573571288,
+    0.05122603337782451,
+    0.06636535494404669
+   ],
+   "nn_cos_q": [
+    0.8738795607723747,
+    0.95098519280738,
+    0.9703077600512702
+   ]
+  },
+  {
+   "stage": "oracle_starts",
+   "delta": 0.05,
+   "frac_back_to_own": 0.966796875,
+   "frac_stationary": 0.966796875,
+   "F_min": 0.9994618725071789,
+   "sec": 2.4616088500479236
+  },
+  {
+   "stage": "oracle_starts",
+   "delta": 0.2,
+   "frac_back_to_own": 0.85546875,
+   "frac_stationary": 0.84375,
+   "F_min": 0.9987091921036054,
+   "sec": 8.858541837020312
+  },
+  {
+   "stage": "random_starts",
+   "S": 15971,
+   "frac_recovered": 0.2265625,
+   "never_hit": 373,
+   "frac_starts_true": 0.013336672719303737,
+   "frac_spurious_stationary": 0.0,
+   "spurious_F_max": null,
+   "max_hits_share": 0.0004382944086156158,
+   "median_kappa_missed": 0.07127718707918125,
+   "median_kappa_found": 0.052243362963016154,
+   "median_nn_cos_missed": 0.8746545633395234,
+   "median_nn_cos_found": 0.8701072427066154,
+   "sec": 703.0753214180004
+  },
+  {
+   "stage": "random_starts",
+   "S": 63884,
+   "frac_recovered": 0.36328125,
+   "never_hit": 269,
+   "frac_starts_true": 0.011599148456577547,
+   "frac_spurious_stationary": 0.0,
+   "spurious_F_max": null,
+   "max_hits_share": 0.0003130674347254399,
+   "median_kappa_missed": 0.07136721888389136,
+   "median_kappa_found": 0.05887797652172888,
+   "median_nn_cos_missed": 0.8771068119440861,
+   "median_nn_cos_found": 0.8693700627656002,
+   "sec": 2525.925241429999
+  }
+ ]
+}

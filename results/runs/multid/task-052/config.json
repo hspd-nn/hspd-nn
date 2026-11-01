@@ -1,0 +1,13 @@
+{
+ "campaign": "multid",
+ "task_id": 52,
+ "n_tasks": 64,
+ "n_units": 19,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "multid",
+  "--n-tasks",
+  "64"
+ ]
+}

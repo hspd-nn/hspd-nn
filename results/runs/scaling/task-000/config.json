@@ -1,0 +1,13 @@
+{
+ "campaign": "scaling",
+ "task_id": 0,
+ "n_tasks": 6,
+ "n_units": 3,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "scaling",
+  "--n-tasks",
+  "6"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "campaign": "context",
+ "task_id": 6,
+ "n_tasks": 8,
+ "n_units": 70,
+ "argv": [
+  "scripts/run_campaign.py",
+  "--campaign",
+  "context",
+  "--n-tasks",
+  "8"
+ ]
+}
